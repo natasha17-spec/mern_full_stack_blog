@@ -62,7 +62,7 @@ export const AddPost = () => {
         <Button size="large" variant="contained">
           Опубликовать
         </Button>
-        <a href="/">
+        <a href="/client/src/pages">
           <Button size="large">Отмена</Button>
         </a>
       </div>

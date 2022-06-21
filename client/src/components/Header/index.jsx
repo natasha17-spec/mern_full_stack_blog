@@ -13,7 +13,7 @@ export const Header = () => {
     <div className={styles.root}>
       <Container maxWidth="lg">
         <div className={styles.inner}>
-          <a className={styles.logo} href="/">
+          <a className={styles.logo} href="/client/src/pages">
             <div>ARCHAKOV BLOG</div>
           </a>
           <div className={styles.buttons}>
@@ -28,7 +28,7 @@ export const Header = () => {
               </>
             ) : (
               <>
-                <a href="/login">
+                <a href="/Login">
                   <Button variant="outlined">Войти</Button>
                 </a>
                 <a href="/register">
